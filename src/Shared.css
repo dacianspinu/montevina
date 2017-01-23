@@ -1,0 +1,27 @@
+.big-area {
+    width: 50%;
+
+    display: inline-block;
+    vertical-align: top;
+
+    height: 100%;
+}
+
+.vertical-centered-content::before {
+    content: '';
+
+    height: 100%;
+    width: 0;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vertical-centered-content-inner-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.horizontal-centered-content {
+    text-align: center;
+}
