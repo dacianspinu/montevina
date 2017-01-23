@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import DetailsArea from './DetailsArea/index';
+import ProfileArea from './ProfileArea/index';
+
 
 class App extends Component {
   render() {
+    
+    //  inline style for a single element
+    //  so that I don't have to import a single css file in order to use just one class from it 
+    
+    let fullHeightStyle = {
+      height: 100 + "%"
+    };
+
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div style={fullHeightStyle}>
+        <ProfileArea></ProfileArea>
+        <DetailsArea></DetailsArea>        
       </div>
     );
   }
