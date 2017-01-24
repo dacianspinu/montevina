@@ -1,0 +1,25 @@
+.details-box {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    box-sizing: border-box;
+
+    height: 500px;
+    width: 100%;
+}
+
+.details-box.projects {
+    background-color: #A8D8EA;
+}
+
+.details-box.experience {
+    background-color: #AA96DA;
+}
+
+.details-box.studies {
+    background-color: #FCBAD3;
+}
+
+.details-box.photo {
+    background-color: #FFFFD2;
+}

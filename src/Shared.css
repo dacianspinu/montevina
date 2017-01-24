@@ -1,10 +1,19 @@
 .big-area {
-    width: 50%;
-
     display: inline-block;
     vertical-align: top;
 
     height: 100%;
+
+    overflow: hidden;
+}
+
+.big-area-left {
+    width: 40%;
+}
+
+.big-area-right {
+    width: 60%;
+    overflow: scroll;
 }
 
 .vertical-centered-content::before {
@@ -20,6 +29,8 @@
 .vertical-centered-content-inner-wrapper {
     display: inline-block;
     vertical-align: middle;
+
+    width: 100%;
 }
 
 .horizontal-centered-content {
