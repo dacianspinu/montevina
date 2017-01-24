@@ -2,6 +2,9 @@
     padding-left: 10%;
     padding-right: 10%;
 
+    padding-top: 5%;
+    padding-bottom: 5%;
+
     box-sizing: border-box;
 
     height: 500px;
@@ -22,4 +25,13 @@
 
 .details-box.photo {
     background-color: #FFFFD2;
+}
+
+.box-title {
+    display: inline-block;
+    margin-left: 10px;
+
+    vertical-align: middle;
+    font-size: 18px;
+
 }
