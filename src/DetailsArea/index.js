@@ -14,7 +14,7 @@ class DetailsArea extends Component {
         </div>
         <div className="details-box experience">
           <div className="box-item-wrapper title">
-            <i className="em em-briefcase"></i><h1 className="box-title">Experience</h1>
+            <i className="em em-briefcase"></i><h1 className="box-title">Experiences</h1>
           </div>
         </div>
         <div className="details-box studies">
