@@ -9,6 +9,8 @@
 
     height: 500px;
     width: 100%;
+
+    text-align: center;
 }
 
 .details-box.projects {
@@ -27,11 +29,23 @@
     background-color: #FFFFD2;
 }
 
+.box-item-wrapper {
+    display: block;
+}
+
+.box-item-wrapper.title {
+    text-align: left;
+}
+
 .box-title {
     display: inline-block;
     margin-left: 10px;
 
     vertical-align: middle;
     font-size: 18px;
+}
 
+.box-image {
+    max-height: 300px;
+    display: block;
 }

@@ -6,7 +6,11 @@ class DetailsArea extends Component {
     return (
       <div className="big-area big-area-right">
         <div className="details-box projects">
-          <i className="em em-computer"></i><h1 className="box-title">Projects</h1>
+          <div className="box-item-wrapper title">
+            <i className="em em-computer"></i><h1 className="box-title">Projects</h1>
+          </div>
+
+          <img src={ process.env.PUBLIC_URL + 'stackla_project.png' } className="box-image computer"></img>
         </div>
         <div className="details-box experience">
           <i className="em em-briefcase"></i><h1 className="box-title">Experience</h1>
